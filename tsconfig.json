@@ -1,10 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "include": ["src/**/*"],
+  "exclude": ["node_modules"],
 
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "strict": true,
     "esModuleInterop": true,
@@ -16,10 +17,7 @@
     "isolatedModules": true,
     "jsx": "react-native",
     "sourceMap": true,
-    "baseUrl": ".",
-    "outDir": "dist",
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "baseUrl": "./src",
+    "outDir": "dist"
   }
 }

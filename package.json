@@ -1,7 +1,7 @@
 {
   "name": "ts-yarn2-boilerplate",
   "version": "0.1.0",
-  "repository": "https://github.com/adamhl8?tab=repositories",
+  "repository": "https://github.com/adamhl8/ts-yarn2-boilerplate",
   "author": "adamhl8",
   "license": "MIT",
   "scripts": {
