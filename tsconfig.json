@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
   "include": ["src/**/*"],
   "exclude": ["node_modules"],
 
@@ -12,12 +11,9 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
-    "downlevelIteration": true,
     "importHelpers": true,
     "isolatedModules": true,
-    "jsx": "react-native",
     "sourceMap": true,
-    "baseUrl": "./src",
     "outDir": "dist"
   }
 }

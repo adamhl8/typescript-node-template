@@ -1,1 +1,1 @@
-# ts-yarn-eslint-prettier-boilerplate
+# ts-node-template
