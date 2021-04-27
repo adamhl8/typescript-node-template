@@ -1,7 +1,7 @@
 {
-  "name": "ts-yarn2-boilerplate",
+  "name": "ts-node-template",
   "version": "0.1.0",
-  "repository": "https://github.com/adamhl8/ts-yarn2-boilerplate",
+  "repository": "https://github.com/adamhl8/ts-node-template",
   "author": "adamhl8",
   "license": "MIT",
   "scripts": {
@@ -9,18 +9,19 @@
     "start": "node --enable-source-maps dist/index.js",
     "build": "tsc",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "updateSDK": "yarn dlx @yarnpkg/pnpify --sdk vscode"
   },
   "devDependencies": {
-    "@types/eslint": "^7",
-    "@types/eslint-config-prettier": "^6",
-    "@types/node": "^14.14.0",
-    "@types/prettier": "^2",
-    "@typescript-eslint/eslint-plugin": "^4.5.0",
-    "@typescript-eslint/parser": "^4.5.0",
-    "eslint": "^7.11.0",
-    "eslint-config-prettier": "^6.13.0",
-    "prettier": "^2.1.2",
-    "typescript": "^4.0.3"
+    "@types/eslint": "^7.2.10",
+    "@types/eslint-config-prettier": "^6.11.0",
+    "@types/node": "^15.0.0",
+    "@types/prettier": "^2.2.3",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
   }
 }
