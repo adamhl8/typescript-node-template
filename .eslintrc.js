@@ -16,7 +16,14 @@ module.exports = {
     "plugin:import/typescript",
     "prettier",
   ],
+  settings: {
+    "import/resolver": {
+      typescript: {
+        alwaysTryTypes: true,
+      },
+    },
+  },
   rules: {
-    "no-console": "off"
+    "no-console": "off",
   },
 }
