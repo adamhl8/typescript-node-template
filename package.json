@@ -1,9 +1,10 @@
 {
   "name": "ts-node-template",
   "version": "0.1.0",
-  "repository": "https://github.com/adamhl8/ts-node-template",
-  "author": "adamhl8",
+  "repository": "https://github.com/Genshii8/ts-node-template",
+  "author": "Genshii8",
   "license": "MIT",
+  "main": "./dist/index.js",
   "type": "module",
   "scripts": {
     "launch": "yarn build && yarn start",
