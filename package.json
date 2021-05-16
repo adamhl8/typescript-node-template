@@ -5,10 +5,10 @@
   "author": "Genshii8",
   "license": "MIT",
   "main": "./dist/index.js",
+  "exports": "./dist/index.js",
   "type": "module",
   "scripts": {
-    "launch": "yarn build && yarn start",
-    "start": "node --enable-source-maps dist/index.js",
+    "start": "yarn build && node --enable-source-maps dist/index.js",
     "build": "tsc",
     "lint": "xo",
     "fix": "xo --fix"

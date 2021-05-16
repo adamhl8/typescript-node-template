@@ -5,6 +5,7 @@
     "outDir": "dist",
     "target": "ESNext",
     "module": "ESNext",
+    "moduleResolution": "node",
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
