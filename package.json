@@ -1,28 +1,33 @@
 {
-  "name": "ts-node-template",
+  "name": "typescript-node-template",
   "version": "0.1.0",
-  "repository": "https://github.com/adamhl8/ts-node-template",
-  "author": "adamhl8",
+  "description": "A boilerplate/template for TypeScript projects in Node with sensible linting and formatting defaults.",
+  "repository": "github:adamhl8/typescript-node-template",
   "license": "MIT",
-  "main": "./dist/index.js",
-  "exports": "./dist/index.js",
-  "type": "module",
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
-    "start": "yarn build && node --enable-source-maps dist/index.js",
-    "build": "tsc",
-    "lint": "xo",
-    "fix": "xo --fix"
+    "lint": "eslint -f pretty --fix .",
+    "prettier": "prettier --write .",
+    "start": "tsc && node --enable-source-maps dist/index.js"
   },
   "devDependencies": {
-    "@types/node": "^15.12.2",
-    "typescript": "^4.3.2",
-    "xo": "^0.40.2"
-  },
-  "xo": {
-    "semicolon": false,
-    "prettier": true
-  },
-  "prettier": {
-    "printWidth": 100
+    "@types/eslint": "^7.2.14",
+    "@types/node": "^16.3.1",
+    "@types/prettier": "^2.3.2",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-formatter-pretty": "^4.1.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-sonarjs": "^0.9.1",
+    "eslint-plugin-unicorn": "^34.0.1",
+    "prettier": "^2.3.2",
+    "prettier-plugin-organize-imports": "^2.2.0",
+    "prettier-plugin-pkg": "^0.10.0",
+    "prettier-plugin-sh": "^0.7.1",
+    "typescript": "^4.3.5"
   }
 }
