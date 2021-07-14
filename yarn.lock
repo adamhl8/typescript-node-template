@@ -339,7 +339,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:^7.2.13, @types/eslint@npm:^7.2.14":
+"@types/eslint@npm:^7.2.13, @types/eslint@npm:^7.28.0":
   version: 7.28.0
   resolution: "@types/eslint@npm:7.28.0"
   dependencies:
@@ -363,7 +363,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.3.1":
+"@types/node@npm:^16.3.2":
   version: 16.3.2
   resolution: "@types/node@npm:16.3.2"
   checksum: 11896edc7022a40f8938e64f57e497b3110ca732bdef785f86f0a0a819609e9b78ad0c950dcaa59177bc299f2793489b605a3e713cdf7900a39031f0018e2134
@@ -384,7 +384,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^4.28.2":
+"@typescript-eslint/eslint-plugin@npm:^4.28.3":
   version: 4.28.3
   resolution: "@typescript-eslint/eslint-plugin@npm:4.28.3"
   dependencies:
@@ -421,7 +421,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^4.28.2":
+"@typescript-eslint/parser@npm:^4.28.3":
   version: 4.28.3
   resolution: "@typescript-eslint/parser@npm:4.28.3"
   dependencies:
@@ -2212,11 +2212,11 @@ resolve@^1.10.0:
   version: 0.0.0-use.local
   resolution: "typescript-node-template@workspace:."
   dependencies:
-    "@types/eslint": ^7.2.14
-    "@types/node": ^16.3.1
+    "@types/eslint": ^7.28.0
+    "@types/node": ^16.3.2
     "@types/prettier": ^2.3.2
-    "@typescript-eslint/eslint-plugin": ^4.28.2
-    "@typescript-eslint/parser": ^4.28.2
+    "@typescript-eslint/eslint-plugin": ^4.28.3
+    "@typescript-eslint/parser": ^4.28.3
     eslint: ^7.30.0
     eslint-config-prettier: ^8.3.0
     eslint-formatter-pretty: ^4.1.0
