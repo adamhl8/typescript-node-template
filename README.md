@@ -4,10 +4,7 @@ A boilerplate/template for TypeScript projects in Node with sensible linting and
 
 - Forces [**strict mode**](https://www.typescriptlang.org/tsconfig/#strict) for TypeScript.
 - Configured for [**CommonJS**](https://nodejs.org/api/modules.html) modules instead of [ESM](https://nodejs.org/api/esm.html) since it is better supported.
-- Uses [**Yarn 2**](https://yarnpkg.com) as the package manager with the following settings/plugins:
-  - Configured to use `node_modules` instead of [PnP](https://yarnpkg.com/features/pnp) for greater compatibility.
-  - [typescript](https://yarnpkg.com/api/modules/plugin_typescript.html)
-  - [upgrade-interactive](https://yarnpkg.com/api/modules/plugin_interactive_tools.html)
+- Uses [**pnpm**](https://pnpm.io) as the package manager.
 - [**TypeScript ESLint**](https://github.com/typescript-eslint/typescript-eslint) with the following plugins/configs:
   - [Unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
   - [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)
