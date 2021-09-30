@@ -3,7 +3,8 @@
 A boilerplate/template for TypeScript projects in Node with sensible linting and formatting defaults.
 
 - Forces [**strict mode**](https://www.typescriptlang.org/tsconfig/#strict) for TypeScript.
-- Configured for [**CommonJS**](https://nodejs.org/api/modules.html) modules instead of [ESM](https://nodejs.org/api/esm.html) since it is better supported.
+- Configured for [Node ES Modules](https://nodejs.org/api/esm.html) (ESM).
+- Uses [**ts-node**](https://github.com/TypeStrong/ts-node).
 - Uses [**pnpm**](https://pnpm.io) as the package manager.
 - [**TypeScript ESLint**](https://github.com/typescript-eslint/typescript-eslint) with the following plugins/configs:
   - [Unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
@@ -21,6 +22,7 @@ A boilerplate/template for TypeScript projects in Node with sensible linting and
     `singleQuote: true`
     `trailingComma: all`
 - **VSCode settings**:
+  - `"*.preferences.importModuleSpecifierEnding": "js"` - Makes sure imports have the proper ending for ESM.
   - `"editor.defaultFormatter": "esbenp.prettier-vscode"` - Sets Prettier as the default formatter.
     - You must have the [VSCode Prettier plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) installed.
   - `"editor.formatOnSave": true` - Format with Prettier on save.
