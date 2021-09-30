@@ -4,6 +4,7 @@
   "description": "A boilerplate/template for TypeScript projects in Node with sensible linting and formatting defaults.",
   "repository": "github:adamhl8/typescript-node-template",
   "license": "MIT",
+  "type": "module",
   "engines": {
     "node": ">=16"
   },
