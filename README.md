@@ -5,7 +5,6 @@ A boilerplate/template for TypeScript projects in Node with sensible linting and
 - Forces [**strict mode**](https://www.typescriptlang.org/tsconfig/#strict) for TypeScript.
 - Configured for [Node ES Modules](https://nodejs.org/api/esm.html) (ESM).
 - Uses [**ts-node**](https://github.com/TypeStrong/ts-node).
-- Uses [**pnpm**](https://pnpm.io) as the package manager.
 - [**TypeScript ESLint**](https://github.com/typescript-eslint/typescript-eslint) with the following plugins/configs:
   - [Unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
   - [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)
