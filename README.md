@@ -2,9 +2,9 @@
 
 A boilerplate/template for TypeScript projects in Node with sensible linting and formatting defaults.
 
-- Forces [**strict mode**](https://www.typescriptlang.org/tsconfig/#strict) for TypeScript.
+- Forces [**strict mode**](https://www.typescriptlang.org/tsconfig/#strict) and other code saftey rules for TypeScript.
 - Configured for [Node ES Modules](https://nodejs.org/api/esm.html) (ESM).
-- Uses [**ts-node**](https://github.com/TypeStrong/ts-node).
+- Uses [**ts-node**](https://github.com/TypeStrong/ts-node) for development.
 - [**TypeScript ESLint**](https://github.com/typescript-eslint/typescript-eslint) with the following plugins/configs:
   - [Unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
   - [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)
@@ -18,7 +18,6 @@ A boilerplate/template for TypeScript projects in Node with sensible linting and
   - Options:
     `printWidth: 120`
     `semi: false`
-    `singleQuote: true`
     `trailingComma: all`
 - **VSCode settings**:
   - `"*.preferences.importModuleSpecifierEnding": "js"` - Makes sure imports have the proper ending for ESM.
